@@ -1290,7 +1290,6 @@ void phd_PutPolygonSkyMesh(short* objptr, long clipstatus)
 	clip_bottom = f_bottom;
 	clip_left = f_left;
 	clip_right = f_right;
-	current_item = 0;
 	ProcessObjectMeshVertices(mesh);
 	quad = mesh->gt4;
 

@@ -28,6 +28,7 @@
 #include "../specific/3dmath.h"
 #include "lara.h"
 #include "../tomb4/tomb4.h"
+#include "../specific/lighting.h"
 
 short CreditGroups[18] =
 {
@@ -438,6 +439,7 @@ void DoLevel(uchar Name, uchar Audio)
 
 	gamestatus = 0;
 	SetFade(255, 0);
+	current_item = 0;
 
 	if (gfGameMode != 4)
 	{
